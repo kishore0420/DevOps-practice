@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mydeployment,
+  name: mydeployment
   labels:
     app: newapp
 spec:
@@ -9,13 +9,13 @@ spec:
   selector:
     matchLabels:
       app: newapp
-    template:
-      metadata:
-        labels:
-          app: newapp
-      spec:
-        containers:
-          - name: newapp-container
-            image: httpd
-            ports:
-              - containerPort: 80  
+  template:
+    metadata:
+      labels:
+        app: newapp
+    spec:
+      containers:
+        - name: newapp-container
+          image: httpd
+          ports:
+            - containerPort: 80  
