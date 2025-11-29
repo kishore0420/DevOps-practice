@@ -16,4 +16,4 @@ RUN npm ci
 ✔ Flask / Django
 ✔ FastAPI (Uvicorn + Gunicorn)
 ✔ Java / Spring Boot
-✔ Go application
+✔ Go application 
