@@ -4,6 +4,6 @@ resource "aws_instance" "ubuntu" {
   instance_type = "t2.micro"
   subnet_id     = "subnet-00ed53140cf2eb31d"
   tags = {
-    Name = "myinstance"
+    Name = "myinstance-1"
   }
 }
