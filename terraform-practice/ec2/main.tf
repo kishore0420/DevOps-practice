@@ -1,8 +1,8 @@
 resource "aws_instance" "ubuntu" {
-  key_name      = "awspractice"
-  ami           = "ami-0b6c6ebed2801a5cb"
-  instance_type = "t2.micro"
-  subnet_id     = "subnet-00ed53140cf2eb31d"
+  key_name      = var.key_name
+  ami           = var.ami_id
+  instance_type = var.instance_type
+  subnet_id     = var.subnet_id
   tags = {
     Name = "myinstance-1"
   }
