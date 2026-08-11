@@ -1,0 +1,1 @@
+Kubectl communicates with API Server to inform what needs to be done like creating pods or deleting pods etc.
