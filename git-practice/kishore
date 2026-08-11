@@ -1,1 +1,3 @@
-Kubectl communicates with API Server to inform what needs to be done like creating pods or deleting pods etc.
+It generally validates requests received and then forwards them to other processes
+Kubectl communicates with API Server to inform what needs to be done like creating pods or deleting pods etc. It also works as a gatekeeper.
+Kubectl communicates with the API Server.
