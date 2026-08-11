@@ -1,1 +1,0 @@
-git status: Shows which files are modified, staged, or untracked.git add <file>: Stages a specific file, preparing it for the next snapshot.
