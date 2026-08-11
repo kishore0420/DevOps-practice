@@ -1,0 +1,2 @@
+A consistent, high-availability key-value store.
+Stores all cluster data (the Source of Truth). If it isn't in etcd, it doesn't exist in Kubernetes
