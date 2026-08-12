@@ -1,2 +1,8 @@
 Developers commit code frequently to a shared repository.
-CI performs build and test automatically without manual
+CI performs build and test automatically.
+Bugs are detected early and fixed quickly.
+Continuous Delivery ensures code is always release-ready.
+Continuous Deployment enables automatic production releases.
+Smaller, frequent updates replace large risky releases.
+Improves collaboration and transparency across teams.
+
