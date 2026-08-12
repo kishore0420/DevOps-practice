@@ -1,2 +1,2 @@
 Developers commit code frequently to a shared repository.
-CI performs build and test automatically.
+CI performs build and test automatically without manual
